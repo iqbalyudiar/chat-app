@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iqbalyudiar/chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqbalyudiar/chat-app/issues"
+  },
+  "homepage": "https://github.com/iqbalyudiar/chat-app#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "package_name": "^1.0.2",
+    "socket.io": "^2.0.4"
+  }
+}
